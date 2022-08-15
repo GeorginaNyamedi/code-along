@@ -3,18 +3,21 @@ import Button from "./components/Button";
 import Navbar from "./Navbar";
 import NavItem from "./components/NavItem";
 import { Image } from "./components/Image";
+// import Practice from "./components/Practice";
+import TaskManager from "./components/TaskManager";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
       <NavItem />
       <Header />
       <Button label="Add to Cart" />
       <Button label="Read more..." />
       <Button label="Register" />
-
-      <Image />
+      <Image /> */}
+      {/* <Practice /> */}
+      <TaskManager></TaskManager>
       </div>
   );
 }
